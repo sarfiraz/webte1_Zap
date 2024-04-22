@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*#firstBody{*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*    min-height: 100vh;*/
+/*    overflow: hidden;*/
+/*    background: dodgerblue;*/
+/*}*/
+/*#secondBody{*/
+/*    background: linear-gradient(#555,#111);*/
+/*}*/
+
+.item{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: deepskyblue;
+    box-shadow: 8px 8px 30px rgba(0,0,0,0.1);
+}
+footer p{
+    color: white;
+    background: #555555;
+    text-align: center;
+}
+header{
+    padding-top: 0.5rem;
+    background: #555555;
+    text-align: center;
+}
+.wrapper{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+.h1El{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    line-height: 1em;
+    z-index: 1;
+    font-weight: bold;
+}
+.h1El span{
+    letter-spacing: 0.3em;
+    font-size: 0.3em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+/*=========================================================================*/
+
+.container{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#555,#111);
+}
+
+.container .text {
+    position: relative;
+    font-size: 5em;
+    text-align: center;
+    color: orange;
+}
+.container .text span{
+    position:relative;
+    display: inline-block;
+}
+.buttons{
+    z-index: 10000;
+}
+.btn{
+    font-size: large;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(orangered,hotpink);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*
+third part
+ */
+
+.container-second{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#555,#111);
+}
+.block{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.bl1{
+    background: hotpink;
+}
+.bl2{
+    background: cyan;
+}
+.bl3{
+    background: red;
+}
+.bl4{
+    background: dodgerblue;
+}
+.bl5{
+    background: tomato;
+}
+.bl6{
+    background: green;
+}
+#play, #pause{
+    font-size: large;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+#pause{
+    background: tomato;
+}
+#play{
+    background: dodgerblue;
+}
+#play:hover, #pause:hover{
+    opacity: 0.5;
+}
